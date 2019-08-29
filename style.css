@@ -1,0 +1,99 @@
+.jumbotron {
+    background-color: white;
+}
+
+#ul{
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around !important;
+  }
+  
+.fonts {
+    font-size: 2em;
+}
+
+.navbar {
+    background-color: #00cdd6 !important;
+}
+
+#plub {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #ccc;
+}
+
+div.hr-or {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    text-align: center;
+    height: 0px;
+    line-height: 0px;
+  }
+  
+  div.hr-or:before {
+    content: 'OR';
+    background-color: #fff;
+  }
+  
+  div.hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    text-align: center;
+    height: 0px;
+    line-height: 0px;
+  }
+  
+  .hr-title {
+    background-color: #fff;
+  }
+
+  p {
+    font-family: open sans, sans-serif;
+    
+  }
+
+  .subtitle {
+    font-weight: 700;
+  
+  }
+
+  .un {
+    text-decoration: underline;
+  }
+
+
+@media (max-width: 786px) {
+
+  .hd {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.09375rem;
+  }
+  
+  p, { 
+    font-size: 1em !important;
+  }
+
+  h1 {
+    font-size: 2em !important;
+  }
+
+  .header-title {
+    margin-right: 1em;
+    margin-left: 2em;
+  }
+
+  #depois {
+    text-align: center;
+    font-size: 2em !important;
+  }
+
+
+}
